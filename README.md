@@ -1,16 +1,33 @@
-# studyapp
+StudyApp - Flutter Educational App
 
-A new Flutter project.
+StudyApp is a Flutter-based educational application that provides users with a seamless learning experience. The app features various categories, courses, and a user-friendly interface for easy navigation.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Welcome Screen: Engaging introductory screen to welcome users.
 
-A few resources to get you started if this is your first Flutter project:
+Home Screen: Displays different course categories and a search bar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Course Screen: Detailed course view with video lessons and descriptions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Navigation Bar: Quick access to home, courses, wishlist, and account sections.
+
+Modern UI: Clean and responsive design for a better user experience.
+
+Folder Structure
+
+|-- lib
+    |-- main.dart               # Entry point of the application
+    |-- screens/
+        |-- welcome_screen.dart # Welcome screen UI
+        |-- home_screen.dart    # Main dashboard with course categories
+        |-- course_screen.dart  # Course details and video lessons
+    |-- widgets/               # Reusable widgets (e.g., video section, description section)
+
+    Technologies Used
+
+Flutter
+
+Dart
+
+Material UI Components
